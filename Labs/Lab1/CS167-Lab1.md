@@ -512,7 +512,16 @@ This is what is shown in the output.txt file:
   ```
 
 - ***(Q5) Does it run? Why or why not?***   
-   It runs but it shows the previous result that outputs the result: "Hello World!"
+   It runs the code correctly but the output you get is not the results stored in output.txt, but shows the warning/error message that is displayed in console:   
+    "Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/hadoop/conf/Configuration   
+	at edu.ucr.cs.cs167.jmerr024.App.main(App.java:55)   
+      Caused by: java.lang.ClassNotFoundException: org.apache.hadoop.conf.Configuration   
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)   
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)   
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)   
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)   
+	... 1 more"   
+
 - Try to run the program using the following command:
 
     ```bash
