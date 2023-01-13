@@ -511,8 +511,8 @@ This is what is shown in the output.txt file:
   java -cp target/<UCRNetID>_lab1-1.0-SNAPSHOT.jar edu.ucr.cs.cs167.<UCRNetID>.App
   ```
 
-- ***(Q5) Does it run? Why or why not?***
-
+- ***(Q5) Does it run? Why or why not?***   
+   It runs but it shows the previous result that outputs the result: "Hello World!"
 - Try to run the program using the following command:
 
     ```bash
