@@ -284,7 +284,7 @@ This command was run using /C:/cs167/hadoop-3.2.2/share/hadoop/common/hadoop-com
   Alternatively, you can use the [alternative method](#alternative-method) later in this section to create a project via IntelliJ.
 
 - ***(Q1) What is the name of the created directory?***
-
+   jmerr024_lab1
 - Change into the project directory and type
 
   ```bash
@@ -301,7 +301,7 @@ This command was run using /C:/cs167/hadoop-3.2.2/share/hadoop/common/hadoop-com
   Replace `<UCRNetID>` with your UCR Net ID, not student ID.
 
 - ***(Q2) What do you see at the console output?***
-
+   "Hello World!"
 #### Import Your Project into InelliJ IDEA
 
 - Open IntelliJ IDEA and choose "Open".
