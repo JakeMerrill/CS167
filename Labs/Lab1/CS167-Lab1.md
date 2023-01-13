@@ -475,6 +475,7 @@ This is what is shown in the console:
 "log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).   
 log4j:WARN Please initialize the log4j system properly.   
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info."   
+   
 This is what is shown in the output.txt file:   
      "but	1   
       cannot	3   
