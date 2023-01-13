@@ -447,11 +447,11 @@ Try the following method if you see red errors (likely on Windows).
 
 - ***(Q3) What do you see at the output?***   
 "log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
-	at edu.ucr.cs.cs167.jmerr024.App.main(App.java:63)    
-*I am not sure if this is also where the output.txt file created but by the time I went back to write this answer the output.txt file was generated*
+ log4j:WARN Please initialize the log4j system properly.
+ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at edu.ucr.cs.cs167.jmerr024.App.main(App.java:63)"    
+ *I am not sure if this is also where the output.txt file created but by the time I went back to write this answer the output.txt file was generated*
 - Create a new text file named "input.txt" in the project folder (same level as "src"), and add the following sample content to it.
 
     ```text
