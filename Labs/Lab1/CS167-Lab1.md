@@ -283,7 +283,7 @@ This command was run using /C:/cs167/hadoop-3.2.2/share/hadoop/common/hadoop-com
   If the above command fails on Windows, you can try Windows Command Prompt (cmd). This command may have some issues with PowerShell and Windows Terminal. You may also try enclose every argument with double quotes `"`.
   Alternatively, you can use the [alternative method](#alternative-method) later in this section to create a project via IntelliJ.
 
-- ***(Q1) What is the name of the created directory?***
+- ***(Q1) What is the name of the created directory?***   
    jmerr024_lab1
 - Change into the project directory and type
 
@@ -300,7 +300,7 @@ This command was run using /C:/cs167/hadoop-3.2.2/share/hadoop/common/hadoop-com
 
   Replace `<UCRNetID>` with your UCR Net ID, not student ID.
 
-- ***(Q2) What do you see at the console output?***
+- ***(Q2) What do you see at the console output?***   
    "Hello World!"
 #### Import Your Project into InelliJ IDEA
 
@@ -445,12 +445,12 @@ Try the following method if you see red errors (likely on Windows).
 
 2. Run the updated App class.
 
-- ***(Q3) What do you see at the output?***
-   log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).
+- ***(Q3) What do you see at the output?***   
+"log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
-	at edu.ucr.cs.cs167.jmerr024.App.main(App.java:63)
+	at edu.ucr.cs.cs167.jmerr024.App.main(App.java:63)    
 *I am not sure if this is also where the output.txt file created but by the time I went back to write this answer the output.txt file was generated*
 - Create a new text file named "input.txt" in the project folder (same level as "src"), and add the following sample content to it.
 
@@ -469,25 +469,25 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
 
     ![alt text](lab1_images/word_count_2.png)
 
-- ***(Q4) What is the output that you see at the console?***
-      but	1
-      cannot	3
-      crawl	1
-      do	1
-      fly,	1
-      forward	1
-      have	1
-      if	3
-      keep	1
-      moving	1
-      run	1
-      run,	1
-      then	3
-      to	1
-      walk	1
-      walk,	1
-      whatever	1
-      you	5
+- ***(Q4) What is the output that you see at the console?***   
+     "but	1   
+      cannot	3   
+      crawl	1   
+      do	1   
+      fly,	1   
+      forward	1   
+      have	1   
+      if	3   
+      keep	1   
+      moving	1   
+      run	1   
+      run,	1   
+      then	3   
+      to	1   
+      walk	1   
+      walk,	1   
+      whatever	1   
+      you	5"   
   Note: We will later cover how MapReduce programs are executed in more details. This lab just ensures that you have the development environment setup.
 
 #### Run the WordCount example from Command Line
