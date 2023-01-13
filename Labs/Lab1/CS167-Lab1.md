@@ -446,6 +446,7 @@ Try the following method if you see red errors (likely on Windows).
 2. Run the updated App class.
 
 - ***(Q3) What do you see at the output?***   
+This is what is shown in the console:   
 "log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).
  log4j:WARN Please initialize the log4j system properly.
  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -470,6 +471,11 @@ Try the following method if you see red errors (likely on Windows).
     ![alt text](lab1_images/word_count_2.png)
 
 - ***(Q4) What is the output that you see at the console?***   
+This is what is shown in the console:   
+"log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).   
+log4j:WARN Please initialize the log4j system properly.   
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info."   
+This is what is shown in the output.txt file:   
      "but	1   
       cannot	3   
       crawl	1   
